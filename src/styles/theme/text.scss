@@ -1,0 +1,55 @@
+.text-white {
+  color: #ffffff;
+}
+
+.text-light {
+  color: #99999F;
+}
+
+.text-pink {
+  color: #D13887;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.text-button{
+  font-size: 20px;
+}
+
+.text-md {
+  font-size: 28px;
+}
+
+.text-lg {
+  font-size: 42px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-bolder {
+  font-weight: bolder;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  src: url("../../assets/font/Lato-Regular.ttf");
+  /* IE9 Compat Modes */
+}
+
+div {
+  font-family: Lato;
+}

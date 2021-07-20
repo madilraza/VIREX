@@ -1,0 +1,31 @@
+.component-search {
+  height: 35px;
+  width: 130px;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 10px;
+  background-color: #99999F;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+
+  &__icon{
+    margin-right: 10px;
+  }
+
+  &__input{
+    flex:1;
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    &::placeholder{
+        color: #ffffff
+    }
+
+    &::-webkit-input-placeholder {
+        color: #ffffff;
+    }
+  }
+}

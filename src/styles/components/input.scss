@@ -1,0 +1,19 @@
+.component-input{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    &__label{
+    }
+
+    &__input{
+        outline: none;
+        border: none;
+        font-size: 20px;
+    }
+}

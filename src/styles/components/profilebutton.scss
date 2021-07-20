@@ -1,0 +1,20 @@
+.component-profilebutton {
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  &__avatar{
+    margin-right: 10px;
+  }
+
+  &__username{
+    position: relative;
+  }
+
+  &__caret{
+    padding-top: 5px;
+    margin-left: 5px;
+  }
+}

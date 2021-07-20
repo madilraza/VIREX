@@ -1,0 +1,180 @@
+.landing-page {
+  &__part{
+    margin-bottom: 200px;
+  }
+
+  &__part-1{
+    &__title{
+      margin-bottom: 30px;
+    }
+
+    &__button-view{
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__part-2{
+    &__image-container{
+      background-color: #000000aa;
+      border-radius: 50px;
+      box-sizing: border-box;
+      padding: 50px;
+
+      @media screen and (max-width: 640px) {
+        padding: 25px;
+        border-radius: 25px;
+      }
+
+      &-image{
+        img{
+          width: calc(100%);
+        }
+      }
+    }
+  }
+
+  &__part-3{
+    &__header{
+      margin-bottom: 100px;
+
+      &-title{
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  &__part-4{
+    background-color: #000000aa;
+    border-radius: 50px;
+    padding: 50px;
+
+    &__paragraph{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    &__button-view{
+      display: flex;
+    }
+
+    &__left{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+  }
+
+  &__part-5{
+    &__title{
+      margin-bottom: 100px;
+    }
+
+    &__content{
+      padding: 40px;
+      border-radius: 30px;
+      background-color: #ffffff10;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &-title{
+        font-size: 24px;
+      }
+      
+      &-paragraph{
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__part-6{
+    background-color: #000000aa;
+    border-radius: 50px;
+    padding: 50px;
+
+    &__paragraph{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    &__button-view{
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &__right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+  }
+
+  &__part-7{
+    &__title{
+      margin-bottom: 100px;
+    }
+
+    &__body{
+      @media screen and (max-width: 640px) {
+        display: none;
+      }
+
+      &__logo-group{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__logo{
+          margin: 30px;
+        }
+      }
+    }
+
+    &__body-mobile{
+      display: none;
+
+      @media screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  &__part-8{
+    background-color: #000000aa;
+    border-radius: 50px;
+    padding: 50px;
+
+    &__paragraph{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    &__button-view{
+      display: flex;
+    }
+
+    &__left{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+  }
+
+  &__part-9{
+    &__title{
+      margin-bottom: 100px;
+    }
+  }
+}
+
+.button-space{
+  width: 30px;
+}

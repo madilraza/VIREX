@@ -1,0 +1,23 @@
+.component-landingitem{
+    display: flex;
+    align-items: center;
+
+    &__image-view{
+        height: 150px;
+        width: 150px;
+        border-radius: 30px;
+        background-color: #D1388710;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__text-view{
+        flex: 1;
+        margin: 20px;
+
+        &__title{
+            margin-bottom: 20px;
+        }
+    }
+}

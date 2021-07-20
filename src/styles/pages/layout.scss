@@ -1,0 +1,136 @@
+.layout {
+  overflow: hidden;
+  background-image: url('../../assets/Svg/background.svg');
+  background-size: cover;
+  padding-left: -1px;
+
+  &-header {
+    background-color: #1C1941;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    &_ {
+      height: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__logo{
+
+    }
+
+    &__tabs{
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    &__right{
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    &__mobile-menu{
+      &__icon{
+        width: 30px;
+        height: 30px;
+      }
+
+      &__menu{
+        position: fixed;
+        top: 84px;
+        left: 0px;
+        right: 0px;
+        overflow: hidden;
+        background-color: #000000;
+        transition: height 0.3s;
+        box-sizing: border-box;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+
+        &-item{
+          color: #99999F;
+          margin: 25px;
+          transition: 0.3s;
+
+          &:hover{
+            color: #ffffff;
+          }
+        }
+
+        &-divider{
+          background-color: #ffffff;
+          height: 1px;
+          margin-right: 25px;
+          margin-left: 25px;
+        }
+      }
+    }
+  }
+
+  &-body {
+    min-height: 100vh;
+    padding-top: 200px;
+  }
+
+  &-contact{
+    background-color: #D13887;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+
+    &__title{
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    &__live-chat{
+      position: absolute;
+      bottom: 40px;
+      right: 20px;
+      width: 80px;
+      height: 80px;
+
+      @media screen and (max-width: 640px) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    &__recaptcha{
+      margin-bottom: 20px;
+    }
+  }
+
+  &-footer {
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    &__link{
+      margin-bottom: 20px;
+    }
+
+    &__logo-bottom-text{
+      margin-top: 30px;
+    }
+
+    &__social-icons-1{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    &__social-icons-2{
+      display: flex;
+      align-items: center;
+    }
+
+    &__social-icon{
+      margin-right: 20px;
+    }
+  }
+}

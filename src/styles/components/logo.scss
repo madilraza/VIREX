@@ -1,0 +1,13 @@
+.component-logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+
+    @media screen and (max-width: 640px) {
+        width: 150px;
+      }
+
+    &__icon{
+        margin-right: 10px;
+    }
+}
